@@ -1,3 +1,4 @@
+
 # Projeto Colaborativo - Ciencia de Dados
 dados_sujos = [10 , " erro ", 20 , 30 , 40 , None , 50 , 15 , " falha ", 25]
 
