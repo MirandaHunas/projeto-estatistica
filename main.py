@@ -12,8 +12,16 @@ def limpar_dados(lista):
 
 resultado = limpar_dados(dados_sujos)
 print(resultado)
+
 def calcular_media () :
-    pass
+
+    soma = 0 
+    for n in range(dados_sujos): 
+        soma += n 
+        media = soma / len(dados_sujos) 
+        
+        return media
+        
 def calcular_mediana () :
     pass
 def calcular_variancia () :
@@ -23,4 +31,4 @@ def obter_extremos () :
 dados = limpar_dados ( dados_sujos )
 print ( f" Dados processados : { dados }")
 
-print("Verificado por: Guilherme Rocco")
+print("Verificado por: Thiago Miranda")
