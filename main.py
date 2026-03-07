@@ -18,9 +18,30 @@ def calcular_mediana () :
     pass
 def calcular_variancia () :
     pass
-def obter_extremos () :
-    pass
+def obter_extremos(dados):
+    menor = dados[0]
+    maior = dados[0]
+
+    for numero in dados:
+        if numero < menor:
+            menor = numero
+        if numero > maior:
+            maior = numero
+
+    return menor, maior
+
+dados = limpar_dados(dados_sujos)
+
+menor, maior = obter_extremos(dados)
+
+print(f"Dados processados: {dados}")
+print(f"Menor valor: {menor}")
+print(f"Maior valor: {maior}")
+
+
 dados = limpar_dados ( dados_sujos )
 print ( f" Dados processados : { dados }")
+
+print("Verificado por: Guilherme Rocco")
 
 print("Verificado por: Guilherme Rocco")
